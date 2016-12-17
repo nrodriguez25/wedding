@@ -1,0 +1,193 @@
+#headerdiv {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+#title {
+    padding: 1em;
+    position: fixed;
+    top: 0em;
+    margin-top: .05em;
+    margin-bottom: 5em;
+    width: 100%;
+    text-align: center;
+    font-family: 'Pinyon Script', cursive;
+    box-shadow: 0px 5px 5px 0px #797979;
+    background-color: #ffffff;
+    display: block;
+    z-index: 999;
+}
+
+#nav_items_wrapper {
+    display: block;
+    margin-left: 20%;
+    height: 30%;
+    z-index: 999;
+    width: auto;
+}
+
+#heart_img1 {
+    width: 7%;
+    z-index: 999;
+    position: fixed;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+ul.topnav {
+    display: block;
+    float: left;
+    height: 2em;
+    width: 50%;
+    position: absolute;
+    top: 3em;
+    z-index: 999;
+    font-family: 'Rubik', sans-serif;
+}
+
+ul.topnav li {
+    display: inline;
+    float: left;
+    height: 1em;
+    width: 20%;
+    line-height: 2em;
+    text-align: center;
+}
+
+ul.topnav li a {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 2em;
+    border: 1px;
+    solid #adbce8;
+    font-size: 1.1em;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+}
+
+ul.topnav li a:hover:not(.active) {
+    box-shadow: -2px 1px 30px 6px #adbce8;
+}
+
+ul.topnav li a.active {
+    box-shadow: -2px 1px 30px 6px #adbce8;
+}
+
+ul.topnav li a:hover {
+    background-color: #e0e0e0;
+}
+
+#wedding_pic {
+    top: 50%;
+    margin-left: 20%
+}
+
+#wed_img {
+    box-shadow: 8px 5px 5px #797979;
+    margin-top: 10em;
+    width: 80%;
+    height: auto;
+}
+
+#about_us_section {
+    margin-top: 10em;
+    position: relative;
+    width: 70%;
+}
+
+#wed_card {
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin-left: 29%;
+    position: absolute;
+}
+
+#about_us_header {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 4em;
+    z-index: 100;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    margin-left: 39%;
+    margin-top: 5%;
+    width: 70%;
+}
+
+#about_us_text {
+    z-index: 100;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    font-size: 1em;
+    margin-left: 39%;
+    margin-top: 20%;
+    width: 70%;
+    font-family: 'Rubik', sans-serif;
+}
+
+#proposal_section {
+    top: 50em;
+    margin-top: 10em;
+    position: relative;
+    width: 70%;
+    height: auto;
+}
+
+#proposal_image {
+    width: 90%;
+    height: auto;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    position: absolute;
+}
+
+#copyright {
+    top: 90em;
+    margin-bottom: 3em;
+    position: relative;
+}
+
+h1 {
+    cursor: pointer;
+}
+
+@media screen and (max-width:680px) {
+    #about_us_header {
+        font-size: 2.5em;
+    }
+    #about_us_text {
+        font-size: .7em;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    ul.topnav li a {
+        border: 2px;
+        font-size: .9em;
+    }
+    #title {
+        font-size: .8em;
+        height: 7em;
+    }
+}
+
+@media screen and (max-width:890px) {
+    ul.topnav li {
+        float: none;
+        height: .5em;
+        width: 5%;
+        line-height: .9em;
+    }
+    ul.topnav li a {
+        border: 2px;
+        font-size: .7em;
+    }
+    #title {
+        font-size: .8em;
+        height: 10em;
+    }
+}
