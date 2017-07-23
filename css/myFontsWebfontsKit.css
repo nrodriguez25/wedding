@@ -1,0 +1,32 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3417480, 2017-07-06T10:56:14-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Asterism-Regular by Great Lakes Lettering
+ * URL: https://www.myfonts.com/fonts/great-lakes-lettering/asterism/regular/
+ * Copyright: Copyright &#x00A9; 2013 by Great Lakes Lettering. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3417480
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/342588");
+
+@font-face {font-family: 'Asterism-Regular';src: url('/Users/nicholasrodriguez/Tresors/General Assembly/Git/wedding/fonts/custom/342588_0_0.eot');src: url('/Users/nicholasrodriguez/Tresors/General Assembly/Git/wedding/fonts/custom/342588_0_0.eot?#iefix') format('embedded-opentype'),url('/Users/nicholasrodriguez/Tresors/General Assembly/Git/wedding/fonts/custom/342588_0_0.woff') format('woff2'),url('/Users/nicholasrodriguez/Tresors/General Assembly/Git/wedding/fonts/custom/342588_0_0.woff') format('woff'),url('/Users/nicholasrodriguez/Tresors/General Assembly/Git/wedding/fonts/custom/342588_0_0.ttf') format('truetype');}
+
+.Asterism-Regular {
+    font-family: Asterism-Regular !important;
+    font-weight: normal;
+    font-style: normal;
+}
