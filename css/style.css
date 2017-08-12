@@ -329,7 +329,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    height: 420px;
+    height: 400px;
   }
 }
 .fh5co-cover .display-t,
@@ -372,7 +372,9 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-top: 2%;
 }
 
-#fh5co-favorite-activities {
+#fh5co-favorite-activities,
+.fh5co-section-gray
+{
   margin-left: 5%;
   margin-right: 5%;
 }
