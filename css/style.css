@@ -19,6 +19,18 @@ body {
   background: #fff;
 }
 
+.margin-left10 {
+    margin-left: 10% !important;
+}
+
+.margin-left30 {
+    margin-left: 30% !important;
+}
+
+.margin-left35 {
+    margin-left: 35% !important;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -352,7 +364,18 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 400px;
   }
 }
+#activities-nav,
+#fh5co-food-activities {
+  text-align: center;
+}
+#fh5co-food-activities {
+  margin-top: 2%;
+}
 
+#fh5co-favorite-activities {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 #fh5co-counter,
 #fh5co-event {
   height: 850px;
@@ -1838,6 +1861,7 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+
 }
 
 /*# sourceMappingURL=style.css.map */
