@@ -846,6 +846,11 @@ form label {
   font-weight: normal !important;
 }
 
+img {
+  max-width: 100% !important;
+  vertical-align: bottom !important;
+}
+
 #fh5co-header .display-tc,
 #fh5co-counter .display-tc,
 .fh5co-cover .display-tc {
@@ -1520,6 +1525,11 @@ form label {
   -ms-transform: rotate(-180deg);
   -o-transform: rotate(-180deg);
   transform: rotate(-180deg);
+}
+
+.margin-boost {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .uppercase {

@@ -74,7 +74,8 @@ figure {
 // Images
 
 img {
-  vertical-align: middle;
+  vertical-align: bottom;
+  max-width: 100%;
 }
 
 // Responsive images (ensure images don't scale beyond their parents)

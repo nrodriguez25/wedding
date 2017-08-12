@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6bd08b-f276-4b8d-b7da-03244c899844" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Airbnb-new-logo-2014.png" afterPath="$PROJECT_DIR$/images/Airbnb-new-logo-2014.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Beehive logo.png" afterPath="$PROJECT_DIR$/images/Beehive logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Boloco logo.png" afterPath="$PROJECT_DIR$/images/Boloco logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Charles River canoe logo.png" afterPath="$PROJECT_DIR$/images/Charles River canoe logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Dig Inn logo.png" afterPath="$PROJECT_DIR$/images/Dig Inn logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Eataly logo.png" afterPath="$PROJECT_DIR$/images/Eataly logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Flour logo.png" afterPath="$PROJECT_DIR$/images/Flour logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Fomu logo.png" afterPath="$PROJECT_DIR$/images/Fomu logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Hubway logo.png" afterPath="$PROJECT_DIR$/images/Hubway logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Isabella Museum logo.png" afterPath="$PROJECT_DIR$/images/Isabella Museum logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Lyft logo.png" afterPath="$PROJECT_DIR$/images/Lyft logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/MFA logo.png" afterPath="$PROJECT_DIR$/images/MFA logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Red lantern logo.png" afterPath="$PROJECT_DIR$/images/Red lantern logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Sweetgreen logo.png" afterPath="$PROJECT_DIR$/images/Sweetgreen logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/T logo.png" afterPath="$PROJECT_DIR$/images/T logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Tatte logo.png" afterPath="$PROJECT_DIR$/images/Tatte logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/The Friendly Toast Logo.png" afterPath="$PROJECT_DIR$/images/The Friendly Toast Logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/The Langham Logo.png" afterPath="$PROJECT_DIR$/images/The Langham Logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Thinking Cup logo.png" afterPath="$PROJECT_DIR$/images/Thinking Cup logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Tico logo.png" afterPath="$PROJECT_DIR$/images/Tico logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ZOLA+logo.png" afterPath="$PROJECT_DIR$/images/ZOLA+logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/myFontsWebfontsKit.css" afterPath="$PROJECT_DIR$/css/myFontsWebfontsKit.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bootstrap/_scaffolding.scss" afterPath="$PROJECT_DIR$/sass/bootstrap/_scaffolding.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1062">
-              <caret line="292" column="49" lean-forward="false" selection-start-line="292" selection-start-column="49" selection-end-line="292" selection-end-column="49" />
+            <state relative-caret-position="1208">
+              <caret line="307" column="70" lean-forward="false" selection-start-line="307" selection-start-column="70" selection-end-line="307" selection-end-column="70" />
               <folding>
                 <element signature="n#nav#0;n#div#1;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#header#0;n#div#1;n#body#0;n#!!top" expanded="false" />
@@ -74,8 +53,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="1335" column="25" lean-forward="false" selection-start-line="1335" selection-start-column="15" selection-end-line="1335" selection-end-column="25" />
+            <state relative-caret-position="985">
+              <caret line="849" column="29" lean-forward="true" selection-start-line="849" selection-start-column="29" selection-end-line="849" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_scaffolding.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/bootstrap/_scaffolding.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="77" column="17" lean-forward="false" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -91,8 +80,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyFontsWebfontsKit.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/MyFontsWebfontsKit.css">
+      <file leaf-file-name="myFontsWebfontsKit.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/myFontsWebfontsKit.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
               <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -106,6 +95,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>gly</find>
+      <find>vertical</find>
       <find>feature-co</find>
     </findStrings>
   </component>
@@ -117,6 +107,7 @@
       <list>
         <option value="$PROJECT_DIR$/css/myFontsWebfontsKit.css" />
         <option value="$PROJECT_DIR$/css/MyFontsWebfontsKit.css" />
+        <option value="$PROJECT_DIR$/sass/bootstrap/_scaffolding.scss" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -168,7 +159,23 @@
             <path>
               <item name="wedding" type="b2602c69:ProjectViewProjectNode" />
               <item name="wedding" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wedding" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wedding" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wedding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wedding" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wedding" type="b2602c69:ProjectViewProjectNode" />
@@ -217,12 +224,12 @@
       <workItem from="1501464111769" duration="55000" />
       <workItem from="1501901883459" duration="197000" />
       <workItem from="1502403518204" duration="23000" />
-      <workItem from="1502549535779" duration="3985000" />
+      <workItem from="1502549535779" duration="5279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13220000" />
+    <option name="totallyTimeSpent" value="14514000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -294,7 +301,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/MyFontsWebfontsKit.css">
+    <entry file="file://$PROJECT_DIR$/css/myFontsWebfontsKit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -338,7 +345,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/MyFontsWebfontsKit.css">
+    <entry file="file://$PROJECT_DIR$/css/myFontsWebfontsKit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -382,7 +389,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/MyFontsWebfontsKit.css">
+    <entry file="file://$PROJECT_DIR$/css/myFontsWebfontsKit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -426,7 +433,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/MyFontsWebfontsKit.css">
+    <entry file="file://$PROJECT_DIR$/css/myFontsWebfontsKit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -454,7 +461,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/MyFontsWebfontsKit.css">
+    <entry file="file://$PROJECT_DIR$/css/myFontsWebfontsKit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -490,7 +497,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/MyFontsWebfontsKit.css">
+    <entry file="file://$PROJECT_DIR$/css/myFontsWebfontsKit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -534,7 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/MyFontsWebfontsKit.css">
+    <entry file="file://$PROJECT_DIR$/css/myFontsWebfontsKit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -570,7 +577,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/MyFontsWebfontsKit.css">
+    <entry file="file://$PROJECT_DIR$/css/myFontsWebfontsKit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -586,7 +593,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/MyFontsWebfontsKit.css">
+    <entry file="file://$PROJECT_DIR$/css/myFontsWebfontsKit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
@@ -602,18 +609,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/bootstrap/_scaffolding.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="77" column="17" lean-forward="false" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="1335" column="25" lean-forward="false" selection-start-line="1335" selection-start-column="15" selection-end-line="1335" selection-end-column="25" />
+        <state relative-caret-position="985">
+          <caret line="849" column="29" lean-forward="true" selection-start-line="849" selection-start-column="29" selection-end-line="849" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="292" column="49" lean-forward="false" selection-start-line="292" selection-start-column="49" selection-end-line="292" selection-end-column="49" />
+        <state relative-caret-position="1208">
+          <caret line="307" column="70" lean-forward="false" selection-start-line="307" selection-start-column="70" selection-end-line="307" selection-end-column="70" />
           <folding>
             <element signature="n#nav#0;n#div#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#div#1;n#body#0;n#!!top" expanded="false" />
