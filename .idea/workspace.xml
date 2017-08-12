@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6bd08b-f276-4b8d-b7da-03244c899844" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="304" column="84" lean-forward="false" selection-start-line="304" selection-start-column="84" selection-end-line="304" selection-end-column="84" />
+            <state relative-caret-position="896">
+              <caret line="304" column="140" lean-forward="false" selection-start-line="304" selection-start-column="140" selection-end-line="304" selection-end-column="140" />
               <folding>
                 <element signature="n#nav#0;n#div#1;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#header#0;n#div#1;n#body#0;n#!!top" expanded="false" />
@@ -51,8 +51,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1187">
-              <caret line="1912" column="1" lean-forward="false" selection-start-line="1912" selection-start-column="1" selection-end-line="1912" selection-end-column="1" />
+            <state relative-caret-position="852">
+              <caret line="1878" column="1" lean-forward="true" selection-start-line="1878" selection-start-column="1" selection-end-line="1878" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -227,12 +227,12 @@
       <workItem from="1501464111769" duration="55000" />
       <workItem from="1501901883459" duration="197000" />
       <workItem from="1502403518204" duration="23000" />
-      <workItem from="1502549535779" duration="12758000" />
+      <workItem from="1502549535779" duration="12874000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21993000" />
+    <option name="totallyTimeSpent" value="22109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -638,16 +638,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1187">
-          <caret line="1912" column="1" lean-forward="false" selection-start-line="1912" selection-start-column="1" selection-end-line="1912" selection-end-column="1" />
+        <state relative-caret-position="852">
+          <caret line="1878" column="1" lean-forward="true" selection-start-line="1878" selection-start-column="1" selection-end-line="1878" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="304" column="84" lean-forward="false" selection-start-line="304" selection-start-column="84" selection-end-line="304" selection-end-column="84" />
+        <state relative-caret-position="896">
+          <caret line="304" column="140" lean-forward="false" selection-start-line="304" selection-start-column="140" selection-end-line="304" selection-end-column="140" />
           <folding>
             <element signature="n#nav#0;n#div#1;n#body#0;n#!!top" expanded="false" />
             <element signature="n#header#0;n#div#1;n#body#0;n#!!top" expanded="false" />
