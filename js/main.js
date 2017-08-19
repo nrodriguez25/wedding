@@ -164,7 +164,7 @@
 
 			$('html, body').animate({
 				scrollTop: $('html').offset().top
-			}, 500, 'easeInOutExpo');
+			}, 1200, 'easeInOutExpo');
 			
 			return false;
 		});
@@ -181,6 +181,15 @@
 		});
 	
 	};
+
+	var goToSection = function () {
+        $('.scrollable').on('click', function(event) {
+        	var link = $(this).attr('href');
+            $('html, body').animate({
+                scrollTop: $(link).offset().top
+            }, 1500);
+        });
+    };
 
 
 	// Loading page
@@ -226,6 +235,8 @@
 		loaderPage();
 		counter();
 		counterWayPoint();
+        goToSection();
+
 	});
 
 
