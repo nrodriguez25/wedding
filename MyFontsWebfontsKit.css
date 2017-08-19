@@ -23,10 +23,6 @@
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/342588");
 
+  
 @font-face {font-family: 'Asterism-Regular';src: url('webfonts/342588_0_0.eot');src: url('webfonts/342588_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/342588_0_0.woff2') format('woff2'),url('webfonts/342588_0_0.woff') format('woff'),url('webfonts/342588_0_0.ttf') format('truetype');}
-
-.Asterism-Regular {
-    font-family: Asterism-Regular !important;
-    font-weight: normal !important;
-    font-style: normal !important;
-}
+ 
