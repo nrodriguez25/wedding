@@ -237,7 +237,13 @@
 		$(window).stellar();
 	};
 
-	
+	var imagePop = function () {
+		$('.pop').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#imagemodal').modal('show');
+		});
+    }
+
 	$(function(){
 		mobileMenuOutsideClick();
 		parallax();
@@ -252,7 +258,7 @@
 		counterWayPoint();
         goToSection();
         conditionallyAddToggle();
-
+        imagePop();
 	});
 
 
