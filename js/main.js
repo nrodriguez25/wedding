@@ -186,7 +186,7 @@
         $('.scrollable').on('click', function(event) {
 
             event.preventDefault();
-            
+
             $('.js-fh5co-nav-toggle').removeClass('active');
         	var link = $(this).attr('href');
             $('html, body').animate({
