@@ -184,11 +184,16 @@
 
 	var goToSection = function () {
         $('.scrollable').on('click', function(event) {
+
+            event.preventDefault();
+
         	var link = $(this).attr('href');
             $('html, body').animate({
                 scrollTop: $(link).offset().top
             }, 1500);
         });
+
+        return false;
     };
 
 
