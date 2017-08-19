@@ -40,14 +40,14 @@
 			$this
 				.addClass('active')
 				.find('ul')
-				.slideDown(500, 'easeOutExpo');				
+				.slideDown(500, 'easeOutExpo');
 		}).mouseleave(function(){
 
 			var $this = $(this);
 			$this
 				.removeClass('active')
 				.find('ul')
-				.slideUp(500, 'easeOutExpo');				
+				.slideUp(500, 'easeOutExpo');
 		});
 
 
@@ -57,7 +57,7 @@
 
     			$('body').removeClass('offcanvas');
     			$('.js-fh5co-nav-toggle').removeClass('active');
-				
+
 	    	}
 		});
 	};
@@ -188,6 +188,7 @@
             event.preventDefault();
 
             $('.js-fh5co-nav-toggle').removeClass('active');
+            $('.js-fh5co-nav-toggle').removeClass('offcanvas')
         	var link = $(this).attr('href');
             $('html, body').animate({
                 scrollTop: $(link).offset().top
@@ -197,7 +198,15 @@
         return false;
     };
 
-
+	var conditionallyAddToggle = function () {
+        if ($(window).width() < 780) {
+            $('.scrollable').addClass('js-fh5co-nav-toggle');
+        }
+        else {
+            $('.scrollable').removeClass('js-fh5co-nav-toggle');
+        }
+    }
+	
 	// Loading page
 	var loaderPage = function() {
 		$(".fh5co-loader").fadeOut("slow");
@@ -242,6 +251,7 @@
 		counter();
 		counterWayPoint();
         goToSection();
+        conditionallyAddToggle();
 
 	});
 
