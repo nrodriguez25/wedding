@@ -192,7 +192,7 @@
         	var link = $(this).attr('href');
             $('html, body').animate({
                 scrollTop: $(link).offset().top
-            }, 1500);
+            }, 2500);
         });
 
         return false;
@@ -256,9 +256,9 @@
 		loaderPage();
 		counter();
 		counterWayPoint();
-        goToSection();
-        conditionallyAddToggle();
-        imagePop();
+		goToSection();
+		conditionallyAddToggle();
+		imagePop();
 	});
 
 

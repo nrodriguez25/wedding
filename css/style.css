@@ -33,6 +33,7 @@ iframe {
   frameborder: 0px;
   marginheight: 0px;
   marginwidth: 0px;
+  border: hidden;
 }
 
 @media (max-width: 585px) {
@@ -1184,6 +1185,7 @@ img {
   font-family: "Sacramento", Arial, serif;
   color: black;
   font-size: 45px;
+  margin-bottom: -1%;
 }
 .couple-half .groom, .couple-half .bride {
   float: left;
@@ -1294,11 +1296,25 @@ img {
 }
 .fh5co-heading h2 {
   font-size: 60px;
-  margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
   color: black;
   font-family: "Sacramento", Arial, serif;
+}
+.margin-bottom-minus-ten {
+  margin-bottom: -10%;
+}
+.margin-top-plus-six {
+  margin-top: 6%;
+}
+.margin-top-plus-fifteen {
+  margin-top: 15%;
+}
+.margin-top-minus-eight {
+  margin-top: -8%;
+}
+.h3-font-size {
+  font-size: 45px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
@@ -1959,6 +1975,56 @@ img {
 .js .animate-box {
   opacity: 0;
 
+}
+
+.section-title {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 15px;
+  text-align: center;
+}
+.section-title h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #2ca5b9;
+}
+.section-title .divider {
+  position: relative;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.section-title .divider:before {
+  position: absolute;
+  content: '';
+  width: 30px;
+  height: 30px;
+  border: 1px solid #f0f0f0;
+  left: 50%;
+  margin-left: -15px;
+  top: 50%;
+  background: #fff;
+  margin-top: -15px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.section-title .divider:after {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 1px solid #2ca5b9;
+  left: 50%;
+  margin-left: -10px;
+  top: 50%;
+  background: #2ca5b9;
+  margin-top: -10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 /*# sourceMappingURL=style.css.map */
