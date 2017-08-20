@@ -62,6 +62,9 @@ iframe {
   .margin-top-minus-five {
     margin-top: -1%;
   }
+  .paragraph-margin-bottom {
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 465px) {
