@@ -1314,6 +1314,9 @@ img {
 .margin-bottom-minus-ten {
   margin-bottom: -10%;
 }
+.margin-bottom-plus-ten {
+  margin-bottom: 10%;
+}
 .margin-top-plus-six {
   margin-top: 6%;
 }
@@ -1453,7 +1456,7 @@ img {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #F14E95;
+  color: #adadad;
 }
 .feature-left .feature-copy {
   float: left;
