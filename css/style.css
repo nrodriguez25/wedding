@@ -36,7 +36,7 @@ iframe {
   border: hidden;
 }
 
-@media (max-width: 584px) {
+@media (max-width: 778px) {
   iframe {
     width: 400px;
     height: 515px;
@@ -155,7 +155,7 @@ iframe {
   font-family: Asterism-Regular !important;
 }
 
-@media (min-width: 585px) {
+@media (min-width: 779px) {
   .margin-bottom-minus-ten {
     margin-bottom: -10%;
   }
@@ -173,6 +173,11 @@ iframe {
   }
   .margin-top-minus-five {
     margin-top: -5%;
+  }
+}
+@media (min-width: 645px) and (max-width:828px){
+  p {
+    max-width: 90%;
   }
 }
 

@@ -54,8 +54,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+            <state relative-caret-position="575">
+              <caret line="177" column="46" lean-forward="false" selection-start-line="177" selection-start-column="46" selection-end-line="177" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -97,6 +97,7 @@
       <find>.feature-left .icon i</find>
       <find>fh5co-video</find>
       <find>@media screen and (max-width: 768px)</find>
+      <find>min-wid</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -206,12 +207,12 @@
       <workItem from="1502855467873" duration="84000" />
       <workItem from="1502977718225" duration="606000" />
       <workItem from="1502980744428" duration="448000" />
-      <workItem from="1503255378554" duration="8019000" />
+      <workItem from="1503255378554" duration="8335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34619000" />
+    <option name="totallyTimeSpent" value="34935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -829,8 +830,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        <state relative-caret-position="575">
+          <caret line="177" column="46" lean-forward="false" selection-start-line="177" selection-start-column="46" selection-end-line="177" selection-end-column="46" />
           <folding />
         </state>
       </provider>
