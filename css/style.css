@@ -55,6 +55,16 @@ iframe {
     marginwidth: 0px;
   }
 }
+
+@media (max-width: 415px) {
+  iframe {
+    width: 300px;
+    height: 515px;
+    frameborder: 0px;
+    marginheight: 0px;
+    marginwidth: 0px;
+  }
+}
 /* The controlsy */
 .carousel-control {
   left: -12px;
