@@ -36,13 +36,31 @@ iframe {
   border: hidden;
 }
 
-@media (max-width: 585px) {
+@media (max-width: 584px) {
   iframe {
     width: 400px;
     height: 515px;
     frameborder: 0px;
     marginheight: 0px;
     marginwidth: 0px;
+  }
+  .margin-bottom-minus-ten {
+    margin-bottom: -5%;
+  }
+  .margin-bottom-plus-ten {
+    margin-bottom: 5%;
+  }
+  .margin-top-plus-six {
+    margin-top: 2%;
+  }
+  .margin-top-plus-fifteen {
+    margin-top: 9%;
+  }
+  .margin-top-minus-eight {
+    margin-top: -3%;
+  }
+  .margin-top-minus-five {
+    margin-top: -1%;
   }
 }
 
@@ -54,6 +72,24 @@ iframe {
     marginheight: 0px;
     marginwidth: 0px;
   }
+  .margin-bottom-minus-ten {
+    margin-bottom: -6%;
+  }
+  .margin-bottom-plus-ten {
+    margin-bottom: 6%;
+  }
+  .margin-top-plus-six {
+    margin-top: 3%;
+  }
+  .margin-top-plus-fifteen {
+    margin-top: 10%;
+  }
+  .margin-top-minus-eight {
+    margin-top: -4%;
+  }
+  .margin-top-minus-five {
+    margin-top: -2%;
+  }
 }
 
 @media (max-width: 415px) {
@@ -63,6 +99,24 @@ iframe {
     frameborder: 0px;
     marginheight: 0px;
     marginwidth: 0px;
+  }
+  .margin-bottom-minus-ten {
+    margin-bottom: -6%;
+  }
+  .margin-bottom-plus-ten {
+    margin-bottom: 6%;
+  }
+  .margin-top-plus-six {
+    margin-top: 3%;
+  }
+  .margin-top-plus-fifteen {
+    margin-top: 10%;
+  }
+  .margin-top-minus-eight {
+    margin-top: -4%;
+  }
+  .margin-top-minus-five {
+    margin-top: -2%;
   }
 }
 /* The controlsy */
@@ -100,20 +154,26 @@ iframe {
 .Asterism-Regular {
   font-family: Asterism-Regular !important;
 }
-.margin-left10 {
-    margin-left: 10% !important;
-}
 
-.margin-left30 {
-    margin-left: 30% !important;
-}
-
-.margin-left35 {
-    margin-left: 35% !important;
-}
-
-.nico-and-nalani {
-  text-align: center !important;
+@media (min-width: 585px) {
+  .margin-bottom-minus-ten {
+    margin-bottom: -10%;
+  }
+  .margin-bottom-plus-ten {
+    margin-bottom: 10%;
+  }
+  .margin-top-plus-six {
+    margin-top: 6%;
+  }
+  .margin-top-plus-fifteen {
+    margin-top: 15%;
+  }
+  .margin-top-minus-eight {
+    margin-top: -8%;
+  }
+  .margin-top-minus-five {
+    margin-top: -5%;
+  }
 }
 
 #page {
@@ -1311,24 +1371,7 @@ img {
   color: black;
   font-family: "Sacramento", Arial, serif;
 }
-.margin-bottom-minus-ten {
-  margin-bottom: -10%;
-}
-.margin-bottom-plus-ten {
-  margin-bottom: 10%;
-}
-.margin-top-plus-six {
-  margin-top: 6%;
-}
-.margin-top-plus-fifteen {
-  margin-top: 15%;
-}
-.margin-top-minus-eight {
-  margin-top: -8%;
-}
-.margin-top-minus-five {
-  margin-top: -5%;
-}
+
 .h3-font-size {
   font-size: 45px;
 }
@@ -1464,7 +1507,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .feature-left .feature-copy {
-    width: 70%;
+    width: 100%;
     float: left;
   }
 }
