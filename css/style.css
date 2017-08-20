@@ -29,7 +29,7 @@ body {
 }
 iframe {
   width: 500px;
-  height: 500px;
+  height: 515px;
   frameborder: 0px;
   marginheight: 0px;
   marginwidth: 0px;
@@ -38,7 +38,7 @@ iframe {
 @media (max-width: 585px) {
   iframe {
     width: 400px;
-    height: 500px;
+    height: 515px;
     frameborder: 0px;
     marginheight: 0px;
     marginwidth: 0px;
@@ -48,7 +48,7 @@ iframe {
 @media (max-width: 465px) {
   iframe {
     width: 350px;
-    height: 500px;
+    height: 515px;
     frameborder: 0px;
     marginheight: 0px;
     marginwidth: 0px;
