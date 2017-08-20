@@ -27,6 +27,33 @@ body {
   margin-bottom: 0;
   padding: 0 40px 30px 40px;
 }
+iframe {
+  width: 500px;
+  height: 500px;
+  frameborder: 0px;
+  marginheight: 0px;
+  marginwidth: 0px;
+}
+
+@media (max-width: 585px) {
+  iframe {
+    width: 400px;
+    height: 500px;
+    frameborder: 0px;
+    marginheight: 0px;
+    marginwidth: 0px;
+  }
+}
+
+@media (max-width: 465px) {
+  iframe {
+    width: 350px;
+    height: 500px;
+    frameborder: 0px;
+    marginheight: 0px;
+    marginwidth: 0px;
+  }
+}
 /* The controlsy */
 .carousel-control {
   left: -12px;
