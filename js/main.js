@@ -182,7 +182,7 @@
 	
 	};
 
-	var goToSection = function () {
+	// var goToSection = function () {
         $('.scrollable').on('click', function(event) {
 
             event.preventDefault();
@@ -195,8 +195,8 @@
             }, 1200), 'easeInOutExpo';
         });
 
-        return false;
-    };
+    //     return false;
+    // };
 
 	var conditionallyAddToggle = function () {
         if ($(window).width() < 780) {
@@ -256,7 +256,7 @@
 		loaderPage();
 		counter();
 		counterWayPoint();
-		goToSection();
+		// goToSection();
 		conditionallyAddToggle();
 		imagePop();
 	});
