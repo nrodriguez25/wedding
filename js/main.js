@@ -188,11 +188,11 @@
             event.preventDefault();
 
             $('.js-fh5co-nav-toggle').removeClass('active');
-            $('.js-fh5co-nav-toggle').removeClass('offcanvas')
+            $('.js-fh5co-nav-toggle').removeClass('offcanvas');
         	var link = $(this).attr('href');
 						 $('html, body').animate({
                 scrollTop: $(link).offset().top
-            }, 2500);
+            }, 1200), 'easeInOutExpo';
         });
 
         return false;
