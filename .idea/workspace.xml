@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e6bd08b-f276-4b8d-b7da-03244c899844" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_171849.jpg" afterPath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_171849.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_172039.jpg" afterPath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_172039.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_174835.jpg" afterPath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_174835.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_175333.jpg" afterPath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_175333.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_182220.jpg" afterPath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_182220.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_183959.jpg" afterPath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_183959.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_185559.jpg" afterPath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_185559.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_190144.jpg" afterPath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_190144.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_190531.jpg" afterPath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_190531.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_194642.jpg" afterPath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_194642.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_195200.jpg" afterPath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_195200.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_195658.jpg" afterPath="$PROJECT_DIR$/images/Nalani + Nico Engaged_20170521_195658.jpg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +39,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="781">
-              <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+            <state relative-caret-position="832">
+              <caret line="54" column="42" lean-forward="false" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#div#1;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#header#0;n#div#1;n#body#0;n#!!top" expanded="false" />
@@ -214,12 +225,12 @@
       <workItem from="1503255378554" duration="9130000" />
       <workItem from="1503279231837" duration="66000" />
       <workItem from="1503320940220" duration="298000" />
-      <workItem from="1503437298281" duration="1116000" />
+      <workItem from="1503437298281" duration="1273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37210000" />
+    <option name="totallyTimeSpent" value="37367000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -769,8 +780,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="51" column="49" lean-forward="true" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
+        <state relative-caret-position="832">
+          <caret line="54" column="42" lean-forward="false" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#header#0;n#div#1;n#body#0;n#!!top" expanded="true" />
             <element signature="n#header#0;n#div#1;n#body#0;n#!!top" expanded="false" />
