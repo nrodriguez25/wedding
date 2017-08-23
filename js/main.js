@@ -181,22 +181,22 @@
 		});
 	
 	};
-
-    var goToSection = function () {
-        $('.scrollable').on('click', function(event) {
-
-            event.preventDefault();
-
-            $('.js-fh5co-nav-toggle').removeClass('active');
-            $('.js-fh5co-nav-toggle').removeClass('offcanvas');
-        	var link = $(this).attr('href');
-						 $('html, body').animate({
-                scrollTop: $(link).offset().top
-            }, 1200), 'easeInOutExpo';
-        });
-
-        return false;
-    };
+	
+    // var goToSection = function () {
+    //     $('.scrollable').on('click', function(event) {
+    //
+    //         event.preventDefault();
+    //
+    //         $('.js-fh5co-nav-toggle').removeClass('active');
+    //         $('.js-fh5co-nav-toggle').removeClass('offcanvas');
+    //     	var link = $(this).attr('href');
+			// 			 $('html, body').animate({
+    //             scrollTop: $(link).offset().top
+    //         }, 1200), 'easeInOutExpo';
+    //     });
+    //
+    //     return false;
+    // };
 
 	var conditionallyAddToggle = function () {
         if ($(window).width() < 780) {
@@ -256,9 +256,25 @@
 		loaderPage();
 		counter();
 		counterWayPoint();
-		goToSection();
+		// goToSection();
 		conditionallyAddToggle();
 		imagePop();
+    console.log(navigator.userAgent);
+    $(".scrollable").on('click', function(event) {
+      
+      event.preventDefault();
+      
+      $(".js-fh5co-nav-toggle").removeClass('active offcanvas');
+      var link = $(this).attr('href');
+      
+      if(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+        window.scrollTo(200,100);
+      } else {
+        $('html, body').animate({
+          scrollTop: $(link).offset().top
+        }, 1200), 'easeInOutExpo';
+      }
+    });
 	});
 
 
