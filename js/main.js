@@ -250,7 +250,6 @@
       $(".js-fh5co-nav-toggle").removeClass('active offcanvas');
 
       var link = $(this).attr('href');
-  
       var scrollTop = $(window).scrollTop();
       var elementOffset = $(link).offset().top;
       var distance = (elementOffset - scrollTop);
