@@ -259,21 +259,22 @@
 		// goToSection();
 		conditionallyAddToggle();
 		imagePop();
-    console.log(navigator.userAgent);
+
     $(".scrollable").on('click', function(event) {
       
       event.preventDefault();
       
       $(".js-fh5co-nav-toggle").removeClass('active offcanvas');
+
       var link = $(this).attr('href');
-      
-      if(navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
-        window.scrollTo(200,100);
-      } else {
-        $('html, body').animate({
-          scrollTop: $(link).offset().top
-        }, 1200), 'easeInOutExpo';
-      }
+  
+      var scrollTop = $(window).scrollTop();
+      var elementOffset = $(link).offset().top;
+      var distance = (elementOffset - scrollTop);
+  
+      $('html, body').animate({
+        scrollTop: distance
+      }, 1200), 'easeInOutExpo';
     });
 	});
 
