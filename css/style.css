@@ -19,6 +19,15 @@ body {
   background: #fff;
 }
 
+#pinterestLink, .white-text {
+  color: white;
+}
+.white-text {
+  font-size: 35px;
+}
+.icon-pinterest {
+  color: #C92228 !important;
+}
 .leaf-separation {
   margin-bottom: 5%;
   margin-top: 6%;
