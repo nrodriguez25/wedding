@@ -245,8 +245,6 @@
 
     $(".scrollable").on('click', function(event) {
       
-      event.preventDefault();
-      
       $(".js-fh5co-nav-toggle").removeClass('active offcanvas');
 
       var link = $(this).attr('href');
