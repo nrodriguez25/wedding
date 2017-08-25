@@ -246,16 +246,28 @@
     $(".scrollable").on('click', function(event) {
       
       $(".js-fh5co-nav-toggle").removeClass('active offcanvas');
-
+			var width = $(window ).width();
       var link = $(this).attr('href');
-      var scrollTop = $(window).scrollTop();
-      var elementOffset = $(link).offset().top;
-      var distance = (elementOffset - scrollTop);
-  
-      // $('html, body').animate({
-      //   scrollTop: distance
-      // }, 1200), 'easeInOutExpo';
-      $(window).scrollTo(document.getElementById(link), 1000);
+      var target = $(this).attr('data-target');
+      var targetTwo = $(this).attr('data-target-two');
+      var targetThree = $(this).attr('data-target-three');
+      
+      if (width >= 610 && width < 770 && target) {
+        $(window).scrollTo(target, 1200);
+        console.log(width);
+        console.log(target);
+			} else if (width < 610 && width > 410 && targetTwo) {
+        $(window).scrollTo(targetTwo, 1200);
+        console.log(targetTwo);
+			} else if (width < 410 && targetThree) {
+        $(window).scrollTo(targetTwo, 1200);
+        console.log(targetThree);
+      } else {
+        $(window).scrollTo($(link), 1200);
+        console.log(link);
+        console.log(target);
+        console.log(width);
+			}
     });
 	});
 
