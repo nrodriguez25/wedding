@@ -254,19 +254,12 @@
       
       if (width >= 610 && width < 770 && target) {
         $(window).scrollTo(target, 1200);
-        console.log(width);
-        console.log(target);
 			} else if (width < 610 && width > 410 && targetTwo) {
         $(window).scrollTo(targetTwo, 1200);
-        console.log(targetTwo);
 			} else if (width < 410 && targetThree) {
         $(window).scrollTo(targetTwo, 1200);
-        console.log(targetThree);
       } else {
         $(window).scrollTo($(link), 1200);
-        console.log(link);
-        console.log(target);
-        console.log(width);
 			}
     });
 	});
