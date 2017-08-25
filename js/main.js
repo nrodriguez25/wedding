@@ -252,9 +252,10 @@
       var elementOffset = $(link).offset().top;
       var distance = (elementOffset - scrollTop);
   
-      $('html, body').animate({
-        scrollTop: distance
-      }, 1200), 'easeInOutExpo';
+      // $('html, body').animate({
+      //   scrollTop: distance
+      // }, 1200), 'easeInOutExpo';
+      $(window).scrollTo(document.getElementById(link), 1000);
     });
 	});
 

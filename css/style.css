@@ -19,6 +19,15 @@ body {
   background: #fff;
 }
 
+.icon-margin {
+  margin-bottom: 12px;
+}
+
+.hash-font {
+  font-family: "Sacramento", Arial, serif;
+  font-size: 2em;
+}
+
 #pinterestLink, .white-text {
   color: white;
 }
@@ -1532,7 +1541,7 @@ img {
 }
 .feature-left .feature-copy {
   float: left;
-  width: 80%;
+  width: 100%;
 }
 @media screen and (max-width: 768px) {
   .feature-left .feature-copy {
