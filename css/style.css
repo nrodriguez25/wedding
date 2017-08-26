@@ -24,8 +24,8 @@ body {
 }
 
 .hash-font {
-  font-family: "Sacramento", Arial, serif;
   font-size: 2em;
+  letter-spacing: 3px;
 }
 
 #pinterestLink, .white-text {
@@ -303,6 +303,9 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   line-height: 40px;
   font-family: "Sacramento", Arial, serif;
+}
+#fh5co-logo {
+  letter-spacing: 3px;
 }
 .fh5co-nav a {
   padding: 5px 10px;
