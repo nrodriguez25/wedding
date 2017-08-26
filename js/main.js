@@ -139,8 +139,8 @@
     });
     
   };
-  
-  
+
+
   var testimonialCarousel = function(){
     var owl = $('.owl-carousel-fullwidth');
     owl.owlCarousel({
@@ -154,8 +154,8 @@
       autoHeight: true,
     });
   };
-  
-  
+
+
   var goToTop = function() {
     
     $('.js-gotop').on('click', function(event){
@@ -244,7 +244,7 @@
     imagePop();
     
     $(".scrollable").on('click', function(event) {
-      
+
       $(".js-fh5co-nav-toggle").removeClass('active offcanvas');
       var width = $(window ).width();
       var link = $(this).attr('href');
