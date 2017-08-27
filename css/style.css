@@ -47,7 +47,7 @@ body {
 }
 iframe {
   width: 500px;
-  height: 515px;
+  height: 710px;
   frameborder: 0px;
   marginheight: 0px;
   marginwidth: 0px;
@@ -57,7 +57,7 @@ iframe {
 @media (max-width: 778px) {
   iframe {
     width: 400px;
-    height: 515px;
+    height: 705px;
     frameborder: 0px;
     marginheight: 0px;
     marginwidth: 0px;
@@ -91,7 +91,7 @@ iframe {
 @media (max-width: 465px) {
   iframe {
     width: 350px;
-    height: 515px;
+    height: 705px;
     frameborder: 0px;
     marginheight: 0px;
     marginwidth: 0px;
@@ -122,7 +122,7 @@ iframe {
 @media (max-width: 415px) {
   iframe {
     width: 300px;
-    height: 515px;
+    height: 705px;
     frameborder: 0px;
     marginheight: 0px;
     marginwidth: 0px;
