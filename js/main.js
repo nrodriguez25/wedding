@@ -1,88 +1,7 @@
 (function () {
   
   'use strict';
-  
-  var mobileMenuOutsideClick = function() {
-    
-    $(document).click(function (e) {
-      var container = $("#fh5co-offcanvas, .js-fh5co-nav-toggle");
-      if (!container.is(e.target) && container.has(e.target).length === 0) {
-        
-        if ( $('body').hasClass('offcanvas') ) {
-          
-          $('body').removeClass('offcanvas');
-          $('.js-fh5co-nav-toggle').removeClass('active');
-        }
-      }
-    });
-    
-  };
-  
-  
-  var offcanvasMenu = function() {
-    
-    $('#page').prepend('<div id="fh5co-offcanvas" />');
-    $('#page').prepend('<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white"><i></i></a>');
-    var clone1 = $('.menu-1 > ul').clone();
-    $('#fh5co-offcanvas').append(clone1);
-    var clone2 = $('.menu-2 > ul').clone();
-    $('#fh5co-offcanvas').append(clone2);
-    
-    $('#fh5co-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
-    $('#fh5co-offcanvas')
-      .find('li')
-      .removeClass('has-dropdown');
-    
-    // Hover dropdown menu on mobile
-    $('.offcanvas-has-dropdown').mouseenter(function(){
-      var $this = $(this);
-      
-      $this
-        .addClass('active')
-        .find('ul')
-        .slideDown(500, 'easeOutExpo');
-    }).mouseleave(function(){
-      
-      var $this = $(this);
-      $this
-        .removeClass('active')
-        .find('ul')
-        .slideUp(500, 'easeOutExpo');
-    });
-    
-    
-    $(window).resize(function(){
-      
-      if ( $('body').hasClass('offcanvas') ) {
-        
-        $('body').removeClass('offcanvas');
-        $('.js-fh5co-nav-toggle').removeClass('active');
-        
-      }
-    });
-  };
-  
-  
-  var burgerMenu = function() {
-    
-    $('body').on('click', '.js-fh5co-nav-toggle', function(event){
-      var $this = $(this);
-      
-      
-      if ( $('body').hasClass('overflow offcanvas') ) {
-        $('body').removeClass('overflow offcanvas');
-      } else {
-        $('body').addClass('overflow offcanvas');
-      }
-      $this.toggleClass('active');
-      event.preventDefault();
-      
-    });
-  };
-  
-  
-  
-  var contentWayPoint = function() {
+    var contentWayPoint = function() {
     var i = 0;
     $('.animate-box').waypoint( function( direction ) {
       
@@ -203,19 +122,7 @@
       },
     });
   };
-  
-  var counterWayPoint = function() {
-    if ($('#fh5co-counter').length > 0 ) {
-      $('#fh5co-counter').waypoint( function( direction ) {
-        
-        if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-          setTimeout( counter , 400);
-          $(this.element).addClass('animated');
-        }
-      } , { offset: '90%' } );
-    }
-  };
-  
+
   // Parallax
   var parallax = function() {
     $(window).stellar();
@@ -229,47 +136,20 @@
   }
   
   $(function(){
-    mobileMenuOutsideClick();
     parallax();
-    offcanvasMenu();
-    burgerMenu();
     contentWayPoint();
     dropdown();
     testimonialCarousel();
     goToTop();
     loaderPage();
     counter();
-    counterWayPoint();
     conditionallyAddToggle();
     imagePop();
     
     $(".scrollable").on('click', function(event) {
 
-      $(".js-fh5co-nav-toggle").removeClass('active offcanvas');
-      var width = $(window ).width();
       var link = $(this).attr('href');
-      var target = $(this).attr('data-target');
-      var targetTwo = $(this).attr('data-target-two');
-      var targetThree = $(this).attr('data-target-three');
-      
-      if (width >= 610 && width < 770 && target) {
-        $(window).scrollTo(target, 1200);
-        console.log(width);
-        console.log(target);
-      } else if (width < 610 && width > 410 && targetTwo) {
-        $(window).scrollTo(targetTwo, 1200);
-        console.log(targetTwo);
-      } else if (width < 410 && targetThree) {
-        $(window).scrollTo(targetTwo, 1200);
-        console.log(targetThree);
-      } else {
-        $(window).scrollTo($(link), 1200);
-        console.log(link);
-        console.log(target);
-        console.log(width);
-      }
+      $(window).scrollTo(link, 2500);
     });
   });
-  
-  
 }());
