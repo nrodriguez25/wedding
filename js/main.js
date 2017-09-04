@@ -148,8 +148,8 @@
     
     $(".scrollable").on('click', function(event) {
 
-      var link = $(this).attr('href');
-      $(window).scrollTo(link, 2500);
+      var link = $(this).attr('data-target');
+      $(window).scrollTo(link, 2000);
     });
   });
 }());
